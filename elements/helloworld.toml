@@ -1,0 +1,6 @@
+type="container"
+run-cmd=["dotnet", "dotnetHelloWorld.dll"]
+dockerfile='Dockerfile'
+run-writable-file-system=true
+[expose.80]
+type='http-domain'
